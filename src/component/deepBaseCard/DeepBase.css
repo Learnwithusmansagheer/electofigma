@@ -1,0 +1,39 @@
+@font-face {
+    font-family: popp1;
+    src: url(../../assests/fonts/popp1.ttf);
+}
+
+* {
+    font-family: popp1;
+}
+
+.deepbaseCard {
+    display: flex;
+    align-items: center;
+    width: 803px;
+    height: 505px;
+    top: 2303px;
+    left: 51px;
+    gap: 62px;
+    border-radius: 20px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid rgba(182, 182, 182, 1)
+}
+
+.deepBaseheading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    gap: 8px;
+}
+
+.deepBaseheading h1 {
+   
+    font-size: 21.09px;
+    font-weight: 600;
+    line-height: 31.64px;
+    text-align: left;
+    color: rgba(0, 63, 98, 1);
+}

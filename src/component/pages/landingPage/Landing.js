@@ -5,6 +5,7 @@ import Camera from '../../canoncamera/Camera'
 import CallCard from '../../firstCard/CallCard'
 import Products from '../../poppularProducts/Products'
 import CallPopularCard from '../../poppularCard/CallPopularCard'
+import SaleUp from '../../saleupsetting/SaleUp'
 export default function Landing() {
   return (
   <>
@@ -23,6 +24,9 @@ export default function Landing() {
  </div>
  <div className="Callproductcard" style={{marginTop:'50px'}}>
 <CallPopularCard/>
+ </div>
+ <div className="saleupSetting">
+ <SaleUp />
  </div>
 
 

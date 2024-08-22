@@ -1,14 +1,15 @@
 
 import './App.css';
-// import Landing from './component/pages/landingPage/Landing';
-import SaleUp from './component/saleupsetting/SaleUp';
+import Landing from './component/pages/landingPage/Landing';
+import DeepBase from './component/deepBaseCard/DeepBase';
 
 
 function App() {
   return (
     <>
-      {/* <Landing/> */}
-      <SaleUp />
+      <Landing/>
+      <DeepBase/>
+     
     </>
   );
 }

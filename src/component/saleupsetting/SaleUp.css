@@ -10,7 +10,7 @@
     background: rgb(27, 27, 27);
     height: 400px;
     border-radius: 20px;
-    margin: 25px;
+    margin: 50px;
     overflow: hidden;
 }
 .laptopImg img{
@@ -65,11 +65,13 @@ gap: 36px;
     }
     .saleup{
         width: auto;
+        margin: 25px;
     }
 }
 @media screen and (max-width:400px) {
     .saleup{
         width: auto;
+        margin: 10px;
     }
     .saleUpInfo{
         margin-left: 10px;
