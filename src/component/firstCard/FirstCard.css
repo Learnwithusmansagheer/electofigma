@@ -1,0 +1,49 @@
+@font-face {
+    font-family: popp1;
+    src: url(../../assests/fonts/popp1.ttf);
+}
+
+* {
+    font-family: popp1;
+ 
+}
+
+.Cardset {
+    color:rgba(27, 90, 125, 1);
+    display: flex;
+    width: 450px;
+    justify-content: space-evenly;
+    gap: 43px;
+    align-items: center;
+
+    height: 150px;
+    /* padding:0 15px; */
+    border-radius: 20px;
+    border: 1px solid rgb(221, 217, 217);
+    transition: all ease-in-out 2s;
+
+
+}
+.Cardset:hover{
+flex-direction: row-reverse;
+}
+
+.speaker {
+    display: flex;
+ 
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    text-align: justify;
+
+}
+
+.speaker h1 {
+    flex-wrap: nowrap;
+    font-size: 23.38px;
+    font-weight: 600;
+    text-align: left;
+
+}

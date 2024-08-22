@@ -1,0 +1,29 @@
+.productBtn1{
+    width: auto;
+    transition: .5s ease;
+   color: aliceblue;
+}
+.productButton{
+    display: flex;
+}
+.productBtn1:hover{
+background-color: #eda415;
+transform: scaleX(1.1);
+
+}
+.popularProduct{
+    display: flex;
+   
+}
+@media screen and (max-width:900px) {
+    .popularProduct{
+        flex-direction: column;
+        align-items: flex-start;
+        overflow-x: scroll;
+        
+    }
+    .productButton{
+        overflow: scroll;
+    }
+    
+}

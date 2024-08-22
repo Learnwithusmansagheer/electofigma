@@ -1,10 +1,15 @@
 
 import './App.css';
-import Navbar from './component/Header/Navbar';
+// import Landing from './component/pages/landingPage/Landing';
+import SaleUp from './component/saleupsetting/SaleUp';
+
 
 function App() {
   return (
-  <Navbar/>
+    <>
+      {/* <Landing/> */}
+      <SaleUp />
+    </>
   );
 }
 

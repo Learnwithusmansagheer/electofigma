@@ -1,0 +1,34 @@
+@font-face {
+    font-family: popp1;
+    src: url(../../assests//fonts/popp1.ttf);
+}
+*{
+    font-family: popp1;
+}
+.saleButton {
+    background-color: rgb(237, 164, 21);
+    transition: all ease 1s;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+  
+}
+
+.saleButton:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.saleUpInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 70px;
+gap: 36px;
+}
+.saleUpInfo p{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}

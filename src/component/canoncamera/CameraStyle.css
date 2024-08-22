@@ -1,0 +1,88 @@
+@font-face {
+  font-family: popp1;
+  src: url(../../assests//fonts/popp1.ttf);
+}
+*{
+  font-family: popp1;
+}
+.landing_button{
+  background: rgba(237, 164, 21, 1);
+ transition: all .5s ease;
+ color: white;
+}
+.landing_button:hover{
+  background-color: white;
+  border: 1px solid #1b5a7d;
+  color: #1b5a7d;
+}
+.landing_button1{
+  transition: all .5s ease;
+  background-color: white;
+}
+.landing_button1:hover{
+  background: rgba(237, 164, 21, 1);
+  color: white;
+  border: none;
+
+}
+  .token{
+    background-color:rgba(237, 164, 21, 1) ;
+    width: 120px;
+    height: 114px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+   margin: 210px;
+   transition: all .5s  ease-in;
+  }
+  .token:hover{
+transform: scale(1.1);
+
+  }
+  .cameraText {
+    padding: 24px;
+  }
+  .camera{
+    display: flex;
+gap: 500px;
+
+  }
+  .headingCamera{
+    display: flex;
+ 
+
+   
+
+  }
+  .buttonsetting{
+    display: flex;
+  }
+  .buttonsetting Button{
+width: 100%;
+  }
+  @media screen and (max-width:890px) {
+            .camera{
+              flex-direction: column-reverse;
+              gap: 10px;
+            }
+            .cameraText {
+              padding: 0;
+              flex-wrap: nowrap;
+            }
+            .headingCamera{
+            font-size: 10px;
+             text-wrap: nowrap;
+              flex-wrap: nowrap;
+              background-color: aliceblue;
+            }
+             .buttonsetting {
+              flex-direction: column;
+
+            }
+            .landing_button{
+              width: auto;
+              
+            }
+  }
