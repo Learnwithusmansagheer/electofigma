@@ -4,7 +4,7 @@ import './Products.css'
 export default function Products() {
     return (
         <>
-            <div className="popularProduct flex justify-between  items-center px-12 ">
+            <div className="popularProduct flex justify-between  items-center px-20 ">
                 <div className="heading">
 
                     <h1 className='size' style={{fontSize:'27px',fontWeight:'700', color:'rgba(27, 90, 125, 1)'}}>Poppular Products</h1>

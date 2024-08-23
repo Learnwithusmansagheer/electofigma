@@ -12,8 +12,7 @@
     align-items: center;
     width: 803px;
     height: 505px;
-    top: 2303px;
-    left: 51px;
+   
     gap: 62px;
     border-radius: 20px;
     border: 1px 0px 0px 0px;
@@ -30,10 +29,172 @@
 }
 
 .deepBaseheading h1 {
-   
+
     font-size: 21.09px;
     font-weight: 600;
     line-height: 31.64px;
     text-align: left;
     color: rgba(0, 63, 98, 1);
+}
+
+.first {
+    font-size: 22px;
+    font-weight: 700;
+    background-color: rgba(226, 244, 255, 1);
+    color:
+        rgba(237, 164, 21, 1);
+    transition: all ease .5s;
+}
+
+.first:hover {
+    transform: scale(1.1);
+    background-color: darkblue;
+}
+
+/* From Uiverse.io by abrahamcalsin */
+.add {
+    position: relative;
+    display: flex;
+
+    align-items: center;
+    border-radius: 19px;
+    background:
+        rgba(135, 188, 217, 1);
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+}
+
+.add:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #ffd401;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+}
+
+.add:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+}
+
+.add span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 18px 25px;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+}
+
+.add:hover span {
+    color: #183153;
+    animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.see {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+    background:
+        rgba(135, 188, 217, 1);
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+}
+
+.see:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #ffd401;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+}
+
+.see:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+}
+
+.see span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 18px 25px;
+    color: #183153;
+
+    font-size: 1.125em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+}
+
+.see:hover span {
+    color: #363030;
+    animation: scaleUp 0.3s ease-in-out;
+}
+
+/* deep base card setting  */
+
+.deepCardSetting {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+@media screen and (max-width:1024px) {
+    .deepCardSetting {
+        width: auto;
+    }
+    .deepbaseCard {
+        padding: 15px;
+        margin: 25px;
+        width: auto;
+    }
+    
+}
+@media screen and (max-width:740px) {
+    .deepCardSetting {
+        width: auto;
+    }
+    .deepbaseCard {
+        flex-direction: column;
+        padding: px;
+        margin: 25px;
+        width: auto;
+        height: auto;
+        gap: 5px;
+    }
+    
 }

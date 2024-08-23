@@ -1,0 +1,27 @@
+.playcardsetting {
+    display: flex;
+    align-items: center;
+
+    width: 493px;
+    height: 241px;
+  
+    border-radius: 19.67px;
+    border: 0.98px 0px 0px 0px;
+    opacity: 0px;
+    border: 0.98px solid rgba(182, 182, 182, 1);
+    transition: all ease .5s;
+    
+}
+.playcardsettingt:hover{
+background-color: #76aa81;
+transform: scale(1.05);
+box-shadow: 5px solid black;
+}
+ @media screen and (max-width:600px) {
+    .playcardsetting{
+        flex-direction: column;
+      height: auto;
+        width: 100%;
+        margin: 10px;
+    }
+ }

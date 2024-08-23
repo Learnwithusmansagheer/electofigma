@@ -8,12 +8,18 @@
     border: 0.98px solid rgba(182, 182, 182, 1);
     transition: all ease .5s;
 }
-.poppularCardSet:hover{
-background-color: #76aa81;
-transform: scale(1.05);
-box-shadow: 5px solid black;
-}
 
+.poppularCardSet:hover {
+    background-color: #e5ff00;
+    transform: scale(1.05);
+    box-shadow: 5px solid black;
+}
+@media screen and (max-width:1024px) {
+    .poppularCardSet {
+        width: 100%;
+     
+    }
+}
 
 /* like */
 

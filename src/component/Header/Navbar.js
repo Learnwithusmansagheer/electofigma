@@ -12,11 +12,11 @@ import Button from '../button/Button';
 export default function Navbar() {
     return (
         <>
-            <header className="header">
+            <header className="header ">
                 <nav>
                     <div className="logo">
                         <div className="imagelog">
-                            <img style={{ width: '140px', height: '39px', cursor: 'pointer' }} src={images1} alt="" />
+                            <img  style={{ }} src={images1} alt="" />
                         </div>
                         <div className="inputsetting ">
                             <input placeholder="Search any thing" className="input" name="" type="search" />
@@ -30,7 +30,8 @@ export default function Navbar() {
                     <div className="signSetting flex justify-center items-center gap-7">
                         <div className="userSignIn flex flex-row  justify-center  gap-4 items-center">
                             < LuUser2 style={{ color: 'white', width: '30px', height: '30px', }} />
-                            <h4 className='heading text-sm text-white cursor-pointer'>Sign In</h4>
+                            <h4 className='heading text-sm text-white cursor-pointer max-[620px]:hidden'>Sign In</h4>
+
                         </div>
                         <div className="like flex justify-center items-center gap-2" >
                             <div className="raiting flex flex-row justify-center items-center gap-2">
@@ -61,13 +62,13 @@ export default function Navbar() {
                                     {/* <h1 className='noti bg-orange-300 text-white rounded-full w-4 justify-center items-center'>0</h1> */}
                                 </div>
                             </div>
-                            <h4 className='heading text-sm text-white cursor-pointer'>Sign In</h4>
+                            <h4 className='heading text-sm text-white cursor-pointer max-[620px]:hidden'>Sign In</h4>
                         </div>
                         <div className="shopingCart flex gap-2 "  >
                         <RiShoppingCart2Line className='shopingcart text-white w-4 h-4' />
                         <FaCreativeCommonsZero className='set rounded-full text-orange-400 w-4 h-4' />
                         </div>
-                        <h4 className='heading text-sm text-white cursor-pointer'>Cart</h4>
+                        <h4 className='heading text-sm text-white cursor-pointer max-[620px]:hidden'>Cart</h4>
                     </div>
 
                 </nav>

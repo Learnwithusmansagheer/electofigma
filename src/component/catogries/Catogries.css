@@ -8,6 +8,7 @@
 }
 .CatogriesNavbar{
     display: flex;
+    justify-content: space-evenly;
 }
 .list{
     color:rgba(0, 63, 98, 1);

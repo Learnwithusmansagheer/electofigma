@@ -2,87 +2,179 @@
   font-family: popp1;
   src: url(../../assests//fonts/popp1.ttf);
 }
-*{
+
+* {
   font-family: popp1;
 }
-.landing_button{
-  background: rgba(237, 164, 21, 1);
- transition: all .5s ease;
- color: white;
+
+.camera {
+  display: flex;
+
+  margin: 30px 70px;
+  gap: 550px;
+  align-items: center;
+  flex-wrap: wrap;
+
+
 }
-.landing_button:hover{
+
+.cameraText {
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.cameraText h1 {
+  width: 50px;
+  font-weight: 700;
+  flex-wrap: wrap;
+  color: #1b5a7d;
+  font-size: 43px;
+}
+
+.landing_button {
+  width: 150px;
+  height: 61px;
+  border-radius: 20px;
+  background: rgba(237, 164, 21, 1);
+  transition: all .5s ease;
+  color: white;
+}
+
+.landing_button:hover {
+
   background-color: white;
   border: 1px solid #1b5a7d;
   color: #1b5a7d;
 }
-.landing_button1{
+
+.landing_button1 {
+  width: 150px;
+  height: 61px;
+  border-radius: 20px;
   transition: all .5s ease;
   background-color: white;
+  border: 1px solid #1b5a7d;
+  color: #1b5a7d;
 }
-.landing_button1:hover{
+
+.landing_button1:hover {
   background: rgba(237, 164, 21, 1);
   color: white;
   border: none;
 
 }
-  .token{
-    background-color:rgba(237, 164, 21, 1) ;
-    width: 120px;
-    height: 114px;
-    display: flex;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-   margin: 210px;
-   transition: all .5s  ease-in;
-  }
-  .token:hover{
-transform: scale(1.1);
 
+.token {
+  background-color: rgba(237, 164, 21, 1);
+  width: 120px;
+  height: 114px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: 210px;
+  transition: all .5s ease-in;
+}
+
+.token:hover {
+  transform: scale(1.1);
+
+}
+
+
+.headingCamera {
+  display: flex;
+
+
+
+
+}
+
+.buttonsetting {
+  display: flex;
+}
+@media screen and (max-width:1050px) {
+  .camera {
+    margin: 30px 40px;
+    gap: 20px;
   }
+}
+
+@media screen and (max-width:890px) {
+  .camera {
+    flex-direction: column-reverse;
+    gap: 10px;
+    margin: 10px;
+  }
+
   .cameraText {
-    padding: 24px;
-  }
-  .camera{
-    display: flex;
-gap: 500px;
+    padding: 0;
 
   }
-  .headingCamera{
-    display: flex;
- 
 
-   
+  .cameraText h1 {
+    width: auto;
+  }
+
+  .headingCamera {
+    font-size: 10px;
+    text-wrap: nowrap;
+    flex-wrap: nowrap;
 
   }
-  .buttonsetting{
-    display: flex;
-  }
-  .buttonsetting Button{
-width: 100%;
-  }
-  @media screen and (max-width:890px) {
-            .camera{
-              flex-direction: column-reverse;
-              gap: 10px;
-            }
-            .cameraText {
-              padding: 0;
-              flex-wrap: nowrap;
-            }
-            .headingCamera{
-            font-size: 10px;
-             text-wrap: nowrap;
-              flex-wrap: nowrap;
-              background-color: aliceblue;
-            }
-             .buttonsetting {
-              flex-direction: column;
 
-            }
-            .landing_button{
-              width: auto;
-              
-            }
+  .landing_button1 {
+    width: 100%;
   }
+
+  .buttonsetting {
+    flex-direction: column;
+
+  }
+
+  .landing_button {
+    width: 100%;
+
+  }
+}
+
+@media screen and (max-width:400px) {
+  .camera {
+    flex-direction: column-reverse;
+    gap: 10px;
+    margin: 15px;
+    align-items: center;
+  }
+
+  .cameraText {
+    align-items: center;
+    padding: 15px;
+    margin: 0 20px;
+
+  }
+
+  .cameraText h1 {
+    width: auto;
+  }
+
+  .landing_button1 {
+    width: 100%;
+  }
+
+  .buttonsetting {
+    flex-direction: column;
+
+  }
+
+  .landing_button {
+    width: 100%;
+
+  }
+
+  .token {
+    margin: 170px;
+  }
+}

@@ -1,9 +1,11 @@
 import React from 'react'
+import './CallPopularCard.css'
 import PoppularCard from './PoppularCard'
 import headphoneImg from '../../assests/images/headphone.png'
 import Gamecontrol from '../../assests/images/gamecontrol.png'
 import Camera from '../../assests/images/camera 1.png'
 import Disktop from '../../assests/images/disktop.png'
+import GameCard from '../../component/playgameCard/PlayGameCard'
 export default function CallPopularCard() {
     const details =[{
         image:Camera,
@@ -61,9 +63,10 @@ export default function CallPopularCard() {
 
  
 ]
+
   return (
     <>
-    <div className="setCard flex justify-evenly items-center px-4 flex-wrap gap-6">
+    <div className="setCard ">
     {
     details.map((item,index)=>(
         <PoppularCard
@@ -75,6 +78,8 @@ export default function CallPopularCard() {
         />
     ))
 }
+
+
     </div>
 
     </>
