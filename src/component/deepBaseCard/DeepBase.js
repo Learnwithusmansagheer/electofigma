@@ -39,7 +39,7 @@ export default function DeepBase() {
                         </div>
                         <div className="setbutton flex gap-4">
                             <button className='add w-48 px-2'>
-                                <span className='p  flex flex-wrap  text-white ' style={{ display: 'flex', flexWrap: 'nowrap', fontSize: '13px', padding: '15px' }}>Add to Cart</span>
+                                <span className='p  flex flex-wrap  text-white ' style={{ display: 'flex', flexWrap: 'nowrap', fontSize: '13px', padding: '15px', zIndex: '1' }}>Add to Cart</span>
                                 <AiOutlineShoppingCart className='card w-5 bg-amber-400 h-5 rounded-full text-white' style={{ fontSize: '10px' }} />
                             </button>
                             <button className='see w-16 '>
@@ -50,7 +50,7 @@ export default function DeepBase() {
                     </div>
                 </div>
                 <div className="playgame">
-                  <CallGameCard/>
+                    <CallGameCard />
                 </div>
             </div>
         </>

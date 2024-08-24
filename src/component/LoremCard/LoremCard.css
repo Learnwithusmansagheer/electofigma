@@ -1,0 +1,97 @@
+.loremCard {
+    display: flex;
+    flex-direction: column;
+    width: 432.79px;
+    height: 242.1px;
+    padding: 16.83px;
+    gap: 26.17px;
+    border-radius: 20px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid rgba(186, 186, 186, 1);
+    transition: all ease .5s;
+
+}
+
+.loremCard:hover {
+    background-color: rgb(26, 15, 53);
+    color: aliceblue;
+    transform: scaleX(1.03);
+}
+
+.loremImg {
+    background-color: rgb(255, 255, 255);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    padding: 1px;
+    border: 1.87px solid rgba(237, 164, 21, 1);
+    border-style: dashed;
+}
+
+.loremImg img {
+    width: 86px;
+    height: 86px;
+}
+
+.namelorem h1 {
+
+    font-size: 15.98px;
+    font-weight: 500;
+    line-height: 23.97px;
+    text-align: left;
+    color: rgba(0, 63, 98, 1);
+    transition: ease all .5s;
+
+}
+
+.namelorem h1:hover {
+    color: white;
+}
+
+.paragraphLorem {
+    background-color:
+        rgba(226, 244, 255, 1);
+    padding: 15px;
+    border-radius: 18px;
+}
+
+.paragraphLorem p {
+    color: rgba(0, 63, 98, 1);
+
+    font-size: 13.17px;
+    font-weight: 400;
+    line-height: 19.76px;
+    text-align: left;
+
+}
+
+.informationSetting {
+    width: 317px;
+    padding: 5px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+@media screen and (max-width:870px) {
+    .loremCard {
+        width: 100%;
+
+        height: auto;
+
+    }
+}
+
+@media screen and (max-width:400px) {
+    .loremCard {
+        width: 100%;
+
+        height: auto;
+        margin-left: 80px;
+
+    }
+}

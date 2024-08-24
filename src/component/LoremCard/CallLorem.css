@@ -1,0 +1,30 @@
+.mainlorem {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.loremCardSetting {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:870px) {
+    .mainlorem {
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .mainlorem {
+        align-items: center;
+        justify-content: center;
+        margin-left: 75px;
+    }
+}

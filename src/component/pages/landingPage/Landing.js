@@ -9,6 +9,7 @@ import CallPopularCard from '../../poppularCard/CallPopularCard'
 import SaleUp from '../../saleupsetting/SaleUp'
 import DeepBase from '../../deepBaseCard/DeepBase'
 import CallDileveryCard from '../../dileveryCard/CallDileveryCard'
+import CallLoremCard from '../../LoremCard/CallLoremCard'
 export default function Landing() {
   return (
   <>
@@ -40,6 +41,9 @@ export default function Landing() {
  </div>
  <div className="calldiliveryCard">
  <CallDileveryCard />
+ </div>
+ <div className="LoremCard">
+ <CallLoremCard/>
  </div>
  </div>
 
