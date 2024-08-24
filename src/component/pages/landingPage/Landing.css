@@ -1,3 +1,10 @@
+@font-face {
+    font-family: popp1;
+    src: url(../../../assests//fonts//popp1.ttf);
+}
+*{
+    font-family: popp1;
+}
 .main{
     display: flex;
     flex-direction: column;
@@ -14,8 +21,6 @@
     width: 100%;
 } 
 .deepbase{
-
-
     width: 100%;
 }
 @media screen and (max-width:400px) {
@@ -34,3 +39,50 @@
         align-content: center;
     }
 }
+
+/*  */
+
+.lastView{
+    width: 90%;
+    margin:0 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.set_lastView{
+    padding:0 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.set_lastView h1{
+color: 
+rgba(27, 90, 125, 1);
+font-size: 25.38px;
+font-weight: 600;
+line-height: 38.07px;
+text-align: center;
+
+}
+.set_lastView h2{
+    color: 
+    rgba(27, 90, 125, 1);
+    font-size: 20.38px;
+    font-weight: 600;
+    line-height: 38.07px;
+    text-align: left;
+    
+    }
+    @media screen and (max-width:400px) {
+        .set_lastView{
+            padding:0 2px;
+        }
+        .lastView{
+        margin:10 50px;
+
+        }
+    }
+

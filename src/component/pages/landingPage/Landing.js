@@ -10,6 +10,7 @@ import SaleUp from '../../saleupsetting/SaleUp'
 import DeepBase from '../../deepBaseCard/DeepBase'
 import CallDileveryCard from '../../dileveryCard/CallDileveryCard'
 import CallLoremCard from '../../LoremCard/CallLoremCard'
+import CallImages from '../../GroupofImg/CallImages'
 export default function Landing() {
   return (
   <>
@@ -44,6 +45,17 @@ export default function Landing() {
  </div>
  <div className="LoremCard">
  <CallLoremCard/>
+ </div>
+ <div className="Call_img">
+ <CallImages/>
+ </div>
+ <div className="lastView">
+  <div className="set_lastView">
+  <h1>Last news</h1>
+  <h2> view all</h2>
+  </div>
+
+
  </div>
  </div>
 

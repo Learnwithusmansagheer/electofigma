@@ -1,8 +1,9 @@
 .mainlorem {
     display: flex;
     flex-direction: row;
-
+    overflow: scroll;
     justify-content: center;
+    overflow: hidden;
     margin-top: 75px;
 }
 
@@ -10,21 +11,50 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    flex-wrap: wrap;
+    overflow-x: hidden;
 }
 
+.loremCardSetting {
+    animation: animation 30s linear infinite;
+}
+
+@keyframes animation {
+    0% {
+        transform: translateX(-105%);
+    }
+
+    100% {
+        transform: translateX(105%);
+    }
+}
+.loremCardSetting:hover{
+    animation-play-state: paused;
+}
 @media screen and (max-width:870px) {
     .mainlorem {
         align-items: center;
-        justify-content: center;
+        overflow-x: scroll;
+        width: 100%;
         margin: 50px;
+
+    }
+
+    .loremCardSetting {
+        overflow: scroll;
+        width: 100%;
+        animation: none;
+
     }
 }
 
 @media screen and (max-width:400px) {
     .mainlorem {
+        width: 100%;
         align-items: center;
         justify-content: center;
-        margin-left: 75px;
+        margin-left: px;
+    }
+    .loremCardSetting {
+        width: 100%;
     }
 }
