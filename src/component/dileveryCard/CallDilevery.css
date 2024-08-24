@@ -1,0 +1,42 @@
+.mainsetting{
+    display: flex;
+}
+.setDileveryCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 87%;
+    background-color:
+        rgba(226, 244, 255, 1);
+    border-radius: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+.mainsetting {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+
+}
+@media screen and (max-width:600px) {
+    .setDileveryCard {
+        width: 100%;
+        gap: 25px;
+        margin-left: px;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .mainsetting{
+        width: 100%;
+    
+        margin-left: 60px;
+    }
+    .setDileveryCard {
+        width: 100%;
+        gap: 25px;
+    }
+    
+}

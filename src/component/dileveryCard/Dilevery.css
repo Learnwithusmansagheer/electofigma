@@ -1,0 +1,38 @@
+@font-face {
+    font-family: poop1;
+    src: url(../../assests/fonts/popp1.ttf);
+}
+.dileveryCard {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+.information h1{
+    font-family: poop1;
+    font-size: 22.09px;
+    font-weight: 600;
+    line-height: 33.14px;
+    text-align: left;
+    color: 
+    rgba(0, 63, 98, 1);
+}
+.information p{
+    font-family: poop1;
+    font-size:18px;
+    font-weight: 400;
+    line-height: 33.14px;
+    text-align: left;
+    color: 
+    rgba(0, 63, 98, 1);
+}
+@media screen and (max-width:400px) {
+    .dileveryCard {
+        width: 100%;
+    }
+    .information h1{
+        font-size: 15px;
+    }
+    .information p{
+        font-size: 12px;
+    }
+}

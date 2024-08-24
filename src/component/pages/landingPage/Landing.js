@@ -8,6 +8,7 @@ import Products from '../../poppularProducts/Products'
 import CallPopularCard from '../../poppularCard/CallPopularCard'
 import SaleUp from '../../saleupsetting/SaleUp'
 import DeepBase from '../../deepBaseCard/DeepBase'
+import CallDileveryCard from '../../dileveryCard/CallDileveryCard'
 export default function Landing() {
   return (
   <>
@@ -36,6 +37,9 @@ export default function Landing() {
  </div>
  <div className="deepbase">
  <DeepBase/>
+ </div>
+ <div className="calldiliveryCard">
+ <CallDileveryCard />
  </div>
  </div>
 

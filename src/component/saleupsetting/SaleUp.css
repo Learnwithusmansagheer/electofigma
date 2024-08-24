@@ -6,6 +6,7 @@
     font-family: popp1;
 }
 .saleup{
+    width: auto;
     display: flex;
     background: rgb(27, 27, 27);
     height: 400px;
