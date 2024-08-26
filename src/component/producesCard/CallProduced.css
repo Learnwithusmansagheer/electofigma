@@ -1,0 +1,46 @@
+
+.main_settingCall{
+
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.Call_setting{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    flex-wrap: wrap;
+overflow: hidden;
+
+}
+@media screen and (max-width:600px) {
+    .main_settingCall{
+        margin: 0 ;
+        width: 80%;
+    
+     
+    }
+   .Call_setting{
+    flex-wrap: nowrap;
+    
+    width: 100%;
+    margin: 40px;
+    overflow: scroll;
+  
+   } 
+}
+@media screen and (max-width:400px) {
+    .main_settingCall{
+        margin: 0 10px;
+        width: 110%;
+    }
+   .Call_setting{
+        flex-wrap: nowrap;
+    width: 100%;
+    overflow: scroll;
+  
+   } 
+}

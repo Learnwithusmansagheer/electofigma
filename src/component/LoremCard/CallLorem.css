@@ -49,10 +49,10 @@
 
 @media screen and (max-width:400px) {
     .mainlorem {
-        width: 100%;
+        width: 120%;
         align-items: center;
         justify-content: center;
-        margin-left: px;
+        margin-left: 5px;
     }
     .loremCardSetting {
         width: 100%;
