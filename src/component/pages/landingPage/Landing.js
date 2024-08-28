@@ -52,9 +52,6 @@ export default function Landing() {
             <h1>Last news</h1>
             <h2> view all</h2>
           </div>
-        
-
-
         </div>
         <div className="produced">
             <CallProduced />

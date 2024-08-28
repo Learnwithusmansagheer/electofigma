@@ -1,0 +1,38 @@
+.productlist{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+.heading h1 {
+
+    font-size: 19.38px;
+    font-weight: 600;
+    line-height: 29.07px;
+    text-align: left;
+    color:
+        rgba(27, 90, 125, 1);
+    margin-bottom: 10px;
+}
+
+.custom-list-item {
+
+    list-style-type: none;
+    position: relative;
+    color: rgba(27, 90, 125, 1);
+    margin-bottom: 10px;
+
+}
+
+.custom-list-item::before {
+    content: '•';
+    color: rgba(217, 217, 217, 1);
+    font-size: 30px;
+    position: absolute;
+    left: -20px;
+    top: -10px;
+
+}
+@media screen and (max-width:400px) {
+    
+}
