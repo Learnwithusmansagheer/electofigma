@@ -47,7 +47,7 @@ export default function Landing() {
         <div className="Call_img">
           <CallImages />
         </div>
-        <div className="lastView">
+        <div className="lastView ">
           <div className="set_lastView">
             <h1>Last news</h1>
             <h2> view all</h2>

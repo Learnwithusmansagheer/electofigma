@@ -1,0 +1,94 @@
+@font-face {
+    font-family: popp1;
+    src: url(../../assests/fonts/popp1.ttf);
+}
+
+* {
+    font-family: popp1;
+}
+
+.subcrieSetting {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+    height: 139px;
+    border-radius: 20px;
+    width: 80%;
+    background-color: aliceblue;
+    border: 1px solid rgb(167, 163, 163);
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.headingStyle {
+
+    font-size: 29.38px;
+    font-weight: 700;
+    line-height: 44.07px;
+    text-align: left;
+    color: rgba(27, 90, 125, 1);
+
+
+}
+
+.emailinput {
+    width: 388px;
+    height: 63px;
+    padding: 25px;
+    gap: 10px;
+    border-radius: 20px;
+    opacity: 0px;
+    background: rgba(237, 164, 21, 1);
+    color: white;
+}
+
+.emailinput::placeholder {
+    color: white;
+}
+
+.contactUs {
+    display: flex;
+
+    align-items: center;
+}
+
+.subcribe_input {
+    display: flex;
+    justify-content: end;
+
+}
+.subcribe_input .emailinput,.sendIcon:hover{
+
+    color: black;
+}
+
+.sendIcon { 
+
+    margin-left: -30px;
+    margin-top: 20px;
+    color: aliceblue;
+
+}
+
+
+@media screen and (max-width:1024px) {
+    .emailinput {
+        width: auto;
+    }
+
+    .subcrieSetting {
+        align-items: center;
+        margin: 20px;
+        flex-direction: column;
+        gap: 30px;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .headingStyle {
+        font-size: 20px;
+    }
+}
