@@ -5,7 +5,7 @@ export default function Catogries() {
   return (
     <>
       <div className="CatogriesNavbar  ">
-        <div className="dropdown w-full bg-rgba(244, 244, 244, 1)  ">
+        <div className="dropdown ml-8 bg-rgba(244, 244, 244, 1) ">
           <select name="dropdown" id="selet" className='dropdown bg-orange-500 w-56 h-16 px-4 text-lg text-white transition-all duration-700 ease-in hover: translate-x-3  '>
             <option className='option bg-black text-white size-40' value="1">Browse categories</option>
             <option className='option text-white size-40' value="1">Browse categories</option>

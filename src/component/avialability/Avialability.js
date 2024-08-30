@@ -3,12 +3,13 @@ import React from 'react'
 import ProductCatogries from '../productCatogriespage/ProductCatogries'
 import Hr from '../hrtag/Hr'
 import './avialability.css'
+import Callcatogriesproduct from '../productCatogriespage/Callcatogriesproduct'
 
 export default function Avialability(props) {
 
   const items =[{
     heading:'0 selected',
-    paragraph:'lasdkfj'
+ 
 }]
   return (
     <>
@@ -21,10 +22,10 @@ export default function Avialability(props) {
     <div className=' avil mt-3 ' >
       {
         items.map((item,index)=>(
-          <ProductCatogries
+          <Callcatogriesproduct
           key={index}
           heading={item.heading}
-          paragraph={item.paragraph}
+   
 
           />
         ))

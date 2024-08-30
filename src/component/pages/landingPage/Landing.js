@@ -12,6 +12,7 @@ import CallDileveryCard from '../../dileveryCard/CallDileveryCard'
 import CallLoremCard from '../../LoremCard/CallLoremCard'
 import CallImages from '../../GroupofImg/CallImages'
 import CallProduced from '../../producesCard/CallProduced'
+import Footer from '../../footer/Footer'
 export default function Landing() {
   return (
     <>
@@ -55,6 +56,9 @@ export default function Landing() {
         </div>
         <div className="produced">
             <CallProduced />
+          </div>
+          <div className="footer">
+          <Footer/>
           </div>
       </div>
 

@@ -76,13 +76,47 @@ text-align: center;
     text-align: left;
     
     }
-    @media screen and (max-width:400px) {
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 160px;
+    }
+    
+    @media screen and (max-width:600px) {
         .set_lastView{
-            padding:0 2px;
+            background-color: aqua;
+        align-items: start;
+          width: 90%;
+           
         }
         .lastView{
-        margin:10 50px;
+        margin:9px;
 
+        }
+        .footer{
+            margin-left: 20px;
+            width: 100%;
+            margin-top: 30px;
+        }
+    }
+
+    @media screen and (max-width:400px) {
+        .set_lastView{
+            justify-content: space-between;
+            gap: 50px;
+            width: auto;
+      
+        }
+        .lastView{
+            justify-content: space-between;
+        margin: 0 50px;
+
+        }
+        .footer{
+            margin-left: 50px;
+            width: 100%;
+            margin-top: 30px;
         }
     }
 

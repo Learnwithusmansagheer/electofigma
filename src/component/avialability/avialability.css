@@ -1,0 +1,21 @@
+.avil {
+    width: 370px;
+    height: 117px;
+    overflow-y: scroll; 
+    scrollbar-width: none; 
+}
+
+.avil::-webkit-scrollbar {
+    display: none;
+}
+.mainavail{
+    display: flex;
+    flex-direction: column;
+overflow-x: hidden;
+    margin-top: 5px;
+   
+}
+.lll{
+    width: 375px;
+    padding: 10px;
+}
