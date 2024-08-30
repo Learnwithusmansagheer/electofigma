@@ -14,9 +14,14 @@ export default function Overall() {
   return (
     <>
     
-   
-      
- 
+    <div>
+    {
+        items.map((item,index)=>(
+          <Callcatogriesproduct
+          key={index}
+          heading={item.heading}
+          styles={item.styles}
+
           />
         ))
       }

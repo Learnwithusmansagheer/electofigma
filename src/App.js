@@ -11,6 +11,7 @@ import Avialability from './component/avialability/Avialability';
 import Overall from './component/productCatogriespage/overall';
 import Hr from './component/hrtag/Hr';
 import Callavialability from './component/avialability/Callavialability';
+import InformationHeading from './component/informationHeading/InformationHeading'
 function App() {
   
   return (
@@ -18,8 +19,10 @@ function App() {
       {/* <Landing /> */}
 
   {/* <Productpage/> */}
-  <Overall/>
-<Callavialability/>
+  {/* <Overall/> */}
+{/* <Avialability/> */}
+<Callcatogriesproduct/>
+{/* <InformationHeading/> */}
 
   
 
