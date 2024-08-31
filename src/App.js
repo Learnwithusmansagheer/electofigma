@@ -12,20 +12,13 @@ import Overall from './component/productCatogriespage/overall';
 import Hr from './component/hrtag/Hr';
 import Callavialability from './component/avialability/Callavialability';
 import InformationHeading from './component/informationHeading/InformationHeading'
+import Callcolor from './component/colorpicker/Callcolor';
 function App() {
   
   return (
     <>
-      {/* <Landing /> */}
-
-  {/* <Productpage/> */}
-  {/* <Overall/> */}
-{/* <Avialability/> */}
+  <Productpage/>
 <Callcatogriesproduct/>
-{/* <InformationHeading/> */}
-
-  
-
     </>
   );
 }

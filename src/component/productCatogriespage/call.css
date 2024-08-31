@@ -1,0 +1,19 @@
+.mainlll {
+    max-height: 100%; /* Adjust the height as needed */
+    overflow: auto;
+  }
+  
+  .mainlll::-webkit-scrollbar {
+    width: 0px;  /* Hide the scrollbar */
+    background: transparent;  /* Optional: Remove scrollbar background */
+  }
+  
+  .mainlll {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .mainlll::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+  
