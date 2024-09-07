@@ -9,9 +9,9 @@
 
 .camera {
   display: flex;
-
+ 
   margin: 30px 70px;
-  gap: 550px;
+  gap: 520px;
   align-items: center;
   flex-wrap: wrap;
 

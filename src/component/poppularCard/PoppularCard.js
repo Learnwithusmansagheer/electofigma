@@ -9,7 +9,7 @@ export default function PoppularCard({ image,heading,price,size}) {
                     <div className="img ">
                         <img className='img ' src={image} alt="" style={size} />
                     </div>
-                    <div className="like absolute flex justify-end items-end " style={{margin:'20px 210px'}}>
+                    <div className="like absolute flex justify-end items-end " style={{}}>
                         <label className="ui-like">
                             <input type="checkbox" />
                             <div className="like">

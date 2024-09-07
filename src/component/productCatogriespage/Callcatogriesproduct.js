@@ -68,8 +68,8 @@ export default function Callcatogriesproduct() {
 
   return (
     <>
-      <div className="mainlll  w-96 overflow-auto">
-        <div className="sett">
+      <div className="mainlll  w-96 overflow-auto bg-slate-500">
+        <div className="sett gap-6">
           <ProductCatogries
             heading={cardData[0].heading}
             data={cardData[0].information}
@@ -88,7 +88,7 @@ export default function Callcatogriesproduct() {
           Availability
         </h2>
 
-        <div className="sett mt-3">
+        <div className="sett mt-3 ">
           <ProductCatogries
             heading={cardData[1].heading}
             data={cardData[1].information}
@@ -106,7 +106,7 @@ export default function Callcatogriesproduct() {
         >
           Product type
         </h2>
-        <div className="sett mt-3">
+        <div className="sett mt-3 ">
           <ProductCatogries
             heading={cardData[2].heading}
             data={cardData[2].information}

@@ -1,0 +1,55 @@
+.information {
+  width: 800px;
+
+  display: flex;
+  margin: 25px 40px;
+  gap: 50px;
+}
+
+.home-heading {
+  width:auto;
+
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+ 
+}
+.home-heading h1 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+.homecard  {
+  width:500px;
+
+  height: 24px;
+  display: flex;
+  align-items: center;
+ 
+}
+@media screen and (max-width:1024px) {
+    .information {
+        margin: 0px;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-heading {
+        gap: 10px;
+        width: auto;
+    }
+}
+@media screen and (max-width:400px) {
+    .information {
+        margin: 0px 3px;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-heading {
+        gap: 10px;
+        width: auto;
+    }
+}

@@ -1,6 +1,13 @@
 .mainlll {
-    max-height: 100%; /* Adjust the height as needed */
-    overflow: auto;
+    width: 350px;
+    height: 100%; /* Adjust the height as needed */
+  gap: 50px;
+  
+  }
+  @media screen and (max-width:1024px) {
+    .mainlll {
+        display: none;
+    }
   }
   
   .mainlll::-webkit-scrollbar {
